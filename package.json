@@ -1,0 +1,46 @@
+{
+  "name": "yandex-translate-api-wrapper",
+  "description": "A wrapper of the Yandex's translation api.",
+  "homepage": "https://github.com/Tommytrg/yandex-translate-api-wrapper",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Tommytrg",
+    "url": "https://github.com/Tommytrg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommytrg/yandex-translate-api-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tommytrg/yandex-translate-api-wrapper/issues"
+  },
+  "keywords": [],
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "should": "^11.2.1"
+  },
+  "devDependencies": {
+    "coveralls": "latest",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "git-dirty": "latest",
+    "nyc": "latest"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "",
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
+  },
+  "license": "MIT"
+}
