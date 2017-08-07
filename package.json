@@ -23,6 +23,7 @@
     "should": "^11.2.1"
   },
   "devDependencies": {
+    "chai-http": "^3.0.0",
     "coveralls": "latest",
     "dotenv": "^4.0.0",
     "eslint": "^4.2.0",
