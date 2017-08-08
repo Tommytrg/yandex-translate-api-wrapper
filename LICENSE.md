@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright © 2017 Tomas <> (https://github.com/Tommytrg)
+Copyright © 2017 Tommytrg <> (https://github.com/Tommytrg)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
