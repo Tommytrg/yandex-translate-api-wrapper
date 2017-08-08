@@ -1,9 +1,10 @@
 require('dotenv').config({path: '../.env'});
 
+var Mocha = require("mocha");
 const chai = require('chai');
 const expect =  require('chai').expect;
 
-const apiWrapper = require('../index.js');
+const apiWrapper = require('../lib/index.js');
 const apiKey = process.env.API_KEY;
 
 describe('function getLanguageList', () => {
